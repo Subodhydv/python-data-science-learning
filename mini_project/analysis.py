@@ -1,0 +1,12 @@
+import pandas as pd
+df=pd.read_csv("mini_project/student.csv")
+print(df)
+print(len(df))
+print(df.head())
+print(df["Marks"].mean())
+print(df["Marks"].max())
+print(df["Marks"].min())
+print(df[df["Department"]=="CSE"])
+print(df[df["Marks"]>85])
+print(df.sort_values("Marks",ascending=False))
+print(df["Department"].value_counts())
