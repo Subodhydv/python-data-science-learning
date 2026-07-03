@@ -21,13 +21,19 @@ python-data-science-learning/
 ├── requirements.txt
 └── README.md
 ```
+## Latest Progress
 
+- Learned Matplotlib histograms, subplots, legends, and figure sizing.
+- Started Seaborn.
+- Practiced `countplot()` and `barplot()`.
+- Improved debugging skills with file paths and DataFrame column names.
 ## 🚀 Technologies Used
 
 - Python 3
 - NumPy
 - Pandas
 - Matplotlib
+- Seaborn
 
 ## 👨‍💻 Author
 
