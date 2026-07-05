@@ -34,7 +34,22 @@ python-data-science-learning/
 - Pandas
 - Matplotlib
 - Seaborn
+## Latest Progress
 
+### Pandas
+- Data cleaning with `fillna()` and `dropna()`
+- Replace values using `replace()`
+- Rename columns using `rename()`
+- Convert data types using `astype()`
+- Filter data using `&`, `|`, and `isin()`
+- Sort data with `sort_values()`
+- Group data using `groupby()`
+- Count occurrences using `value_counts()`
+### Exploratory Data Analysis (EDA)
+- Dataset exploration
+- Handling missing values
+- Detecting duplicate records
+- Basic data cleaning workflow
 ## 👨‍💻 Author
 
 **Subodh Kumar Yadav**
