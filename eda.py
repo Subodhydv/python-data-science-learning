@@ -1,5 +1,6 @@
 import pandas as pd
 df=pd.read_csv("mini_project/student.csv")
+
 print(df)
 print(df.shape)
 print(df.columns)
@@ -24,3 +25,9 @@ print(df.groupby("Department")["Marks"].max())
 print(df.groupby("Department")["Marks"].min())
 print(df.groupby("Department")["Marks"].count())
 print(df["Department"].value_counts())
+result = pd.concat([students1, students2])
+print(result)
+result = pd.merge(employee, salary, on="EmpID")
+print(result)
+df["Marks"] = df["Marks"].apply(lambda x: x + 5)
+print(df)
